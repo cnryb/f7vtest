@@ -8,6 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "framework7": "^3.5.1",
+    "framework7-vue": "^3.5.1",
     "vue": "^2.5.17"
   },
   "devDependencies": {
