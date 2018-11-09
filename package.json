@@ -8,9 +8,11 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "cordova-android": "^6.4.0",
     "framework7": "^3.5.1",
     "framework7-vue": "^3.5.1",
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "cordova-plugin-whitelist": "^1.3.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.1.1",
@@ -44,5 +46,13 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
 }
