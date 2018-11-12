@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve  --open",
-    "build": "vue-cli-service build  --dest www",
+    "build": "vue-cli-service build  --dest www --mode development",
+    "run": "vue-cli-service build  --dest www --mode development  && cordova run",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
